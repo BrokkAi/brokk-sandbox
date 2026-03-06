@@ -52,6 +52,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libffi-dev \
     zlib1g-dev \
     pipx \
+    openjdk-25-jdk \
     && rm -rf /var/lib/apt/lists/*
 
 # ---- Create non-root user ----
