@@ -57,7 +57,7 @@ RUN pip3 install --break-system-packages \
     black isort ruff mypy \
     pytest httpx requests
 
-uv tool install brokk
+RUN uv tool install brokk
 # ── Node.js (via nvm) ─────────────────────────────────────────────────────────
 ENV NVM_DIR=/usr/local/nvm
 ENV NODE_VERSION=22
